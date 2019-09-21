@@ -3,7 +3,7 @@
 > Note: Just an expeimental project
 > Feel free to suggest and contribute
 
-## Table of Contents that thought of doint till now
+## Table of Contents that thought of doing till now
 - GitHub husky, pull panda, action
 - Linting
 - Sementing versioning
