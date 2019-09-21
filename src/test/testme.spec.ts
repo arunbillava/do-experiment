@@ -1,4 +1,4 @@
-import TestMe from '../src/app/testme';
+import TestMe from '../app/testme';
 import { expect } from 'chai';
 import 'mocha';
 
