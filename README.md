@@ -14,4 +14,4 @@
     "test": npm run test,
     "start": npm run start,
     "build": npm run build,
-    "build:live": npm run  build:live
+    "build:live": npm run  build:live 
