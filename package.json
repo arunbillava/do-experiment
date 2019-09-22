@@ -1,6 +1,6 @@
 {
   "name": "do-experiment",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Doing experiment with new tech",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,8 @@
     "start": "npm run build:live",
     "lint": "eslint src/app/*",
     "build": "tsc -p .",
-    "build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+    "build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "tech"
@@ -44,12 +45,16 @@
   },
   "release": {
     "plugins": [
-     "@semantic-release/commit-analyzer",
-     "@semantic-release/release-notes-generator",
-     "@semantic-release/npm",
-     "@semantic-release/changelog",
-     "@semantic-release/git"
-   ],
-   "branch": "master"
- }
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/git"
+    ],
+    "branch": "master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arunbillava/do-experiment.git",
+    "githubUrl": "https://github.com/arunbillava/do-experiment.git"
+  }
 }
