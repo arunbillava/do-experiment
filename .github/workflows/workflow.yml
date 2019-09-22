@@ -21,5 +21,8 @@ jobs:
     - name: npm test
       run: |
         npm test
+    - name: Building Release Note
+      run: |
+        npx semantic-release
       env:
         CI: true
